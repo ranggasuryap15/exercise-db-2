@@ -58,8 +58,8 @@ func main() {
 	dbCredential := Credential{
 		Host:         "localhost",
 		Username:     "postgres",
-		Password:     "postgres",
-		DatabaseName: "test_db_camp",
+		Password:     "root",
+		DatabaseName: "rg_database",
 		Port:         5432,
 	}
 	dbConn, err := Connect(&dbCredential)
